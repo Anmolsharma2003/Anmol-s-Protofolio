@@ -1,7 +1,7 @@
-import MathPortfolio from "@/components/MathPortfolio";
+import Portfolio from "@/components/Portfolio";
 
 const Index = () => {
-  return <MathPortfolio />;
+  return <Portfolio />;
 };
 
 export default Index;
