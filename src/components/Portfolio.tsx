@@ -62,21 +62,32 @@ const Portfolio = () => {
   return (
     <div className="min-h-screen bg-background">
       {/* Hero Section */}
-      <div className="bg-gradient-to-br from-primary to-primary-glow text-white py-20 px-4">
-        <div className="max-w-4xl mx-auto text-center">
-          <div className="w-32 h-32 bg-white/20 rounded-full mx-auto mb-6 flex items-center justify-center">
-            <User size={64} className="text-white" />
-          </div>
-          <h1 className="text-5xl font-bold mb-4">Anmol Sharma</h1>
-          <p className="text-xl mb-6 text-white/90">Full Stack Developer & Software Engineer</p>
-          <div className="flex flex-wrap justify-center gap-4 text-white/80">
-            <div className="flex items-center gap-2">
-              <MapPin size={16} />
-              <span>Kairi, Shamli</span>
+      <div className="relative overflow-hidden">
+        {/* Background with enhanced gradient */}
+        <div className="absolute inset-0 bg-gradient-to-br from-primary via-primary-glow to-purple-600"></div>
+        <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent"></div>
+        
+        {/* Decorative shapes */}
+        <div className="absolute top-0 left-0 w-72 h-72 bg-white/10 rounded-full -translate-x-1/2 -translate-y-1/2 blur-3xl"></div>
+        <div className="absolute bottom-0 right-0 w-96 h-96 bg-purple-300/20 rounded-full translate-x-1/3 translate-y-1/3 blur-3xl"></div>
+        
+        {/* Content */}
+        <div className="relative z-10 py-24 px-4">
+          <div className="max-w-4xl mx-auto text-center">
+            <div className="w-36 h-36 bg-white/20 backdrop-blur-sm rounded-full mx-auto mb-8 flex items-center justify-center border border-white/30 shadow-2xl">
+              <User size={72} className="text-white drop-shadow-lg" />
             </div>
-            <div className="flex items-center gap-2">
-              <Phone size={16} />
-              <span>+91 95575759626</span>
+            <h1 className="text-6xl font-bold mb-6 text-white drop-shadow-2xl">Anmol Sharma</h1>
+            <p className="text-2xl mb-8 text-white/95 drop-shadow-lg">Full Stack Developer & Software Engineer</p>
+            <div className="flex flex-wrap justify-center gap-6 text-white/90">
+              <div className="flex items-center gap-3 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full border border-white/20">
+                <MapPin size={18} />
+                <span className="font-medium">Kairi, Shamli</span>
+              </div>
+              <div className="flex items-center gap-3 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full border border-white/20">
+                <Phone size={18} />
+                <span className="font-medium">+91 95575759626</span>
+              </div>
             </div>
           </div>
         </div>
