@@ -124,9 +124,12 @@ const Portfolio = () => {
               <h3 className="text-xl font-semibold text-foreground mb-2">
                 Class 12th
               </h3>
-              <p className="text-muted-foreground">
+              <p className="text-muted-foreground mb-1">
                 Mansarovar Public School, Babri
               </p>
+              <Badge variant="secondary" className="bg-primary-glow/10 text-primary-glow">
+                81.2%
+              </Badge>
             </div>
           </CardContent>
         </Card>
