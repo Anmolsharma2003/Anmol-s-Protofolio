@@ -74,8 +74,12 @@ const Portfolio = () => {
         {/* Content */}
         <div className="relative z-10 py-24 px-4">
           <div className="max-w-4xl mx-auto text-center">
-            <div className="w-36 h-36 bg-white/20 backdrop-blur-sm rounded-full mx-auto mb-8 flex items-center justify-center border border-white/30 shadow-2xl">
-              <User size={72} className="text-white drop-shadow-lg" />
+            <div className="w-36 h-36 bg-white/20 backdrop-blur-sm rounded-full mx-auto mb-8 flex items-center justify-center border border-white/30 shadow-2xl overflow-hidden">
+              <img 
+                src="/lovable-uploads/0b4be5ea-b1c1-4f1d-a0b8-b8662ea996df.png" 
+                alt="Anmol Sharma" 
+                className="w-full h-full object-cover"
+              />
             </div>
             <h1 className="text-6xl font-bold mb-6 text-white drop-shadow-2xl">Anmol Sharma</h1>
             <p className="text-2xl mb-8 text-white/95 drop-shadow-lg">Full Stack Developer & Software Engineer</p>
