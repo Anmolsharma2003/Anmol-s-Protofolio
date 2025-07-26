@@ -16,7 +16,8 @@ import {
 const Portfolio = () => {
   const skills = [
     "HTML", "CSS", "JavaScript", "ReactJS", "NodeJS", 
-    "Express JS", "MongoDB", "Java", "Prompt Engineering", 
+    "Express JS", "MongoDB", "Java", "Python", "Git",
+    "OOPS (Object Oriented Programming)", "Prompt Engineering", 
     "Data Structures", "Operating System"
   ];
 
