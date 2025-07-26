@@ -203,7 +203,7 @@ const Portfolio = () => {
             <div className="flex justify-center gap-6">
               <div className="flex items-center gap-2 text-muted-foreground hover:text-primary cursor-pointer transition-colors">
                 <Mail size={20} />
-                <span>anmol.sharma@example.com</span>
+                <span>anmolsharma222003@gmail.com</span>
               </div>
               <div className="flex items-center gap-2 text-muted-foreground hover:text-primary cursor-pointer transition-colors">
                 <Github size={20} />
